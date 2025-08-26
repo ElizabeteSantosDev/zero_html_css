@@ -1,0 +1,176 @@
+@font-face {
+    font-family: "Poppins";
+    src: url(../fonte/Poppins/Poppins-Regular.ttf);
+}
+
+/*=== Reset os elementos ===*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+/*=== Global Tag de Título e Parágrafo ===*/
+h1 {
+    font-size: 52px;
+    font-weight: 300;
+    color: #ffffff;
+}
+h2 {
+    font-size: 32px;
+    font-weight: 300;
+    text-align: center;
+    padding: 1em 0;
+}
+h3 {
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+    padding: .5em 0;
+}
+
+/*=== Classes ===*/
+.topo-container {
+    background-image: url(../img/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: left;
+    height: 80vh;
+    padding: 12em 6em;
+}
+.topo-container h1 {
+    width: 500px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.topo-container p {
+    color: #f3f3f3;
+    width: 50%;
+    padding-bottom: 30px;
+}
+.topo-container a {
+    border: 1px solid #02caca;
+    background-color: #04d9d9;
+    padding: 15px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #f3f3f3;
+}
+.topo-container a:hover {
+    background-color: #f3f3f3;
+    color: #02caca;
+    font-weight: bold;
+    transition: .5s;
+}
+
+/*=== primeira ===*/
+.primeira {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    text-align: center;
+    justify-content: center;
+}
+.primeira h2 {
+    font-weight: bold;
+}
+.primeira p {
+    padding-bottom: 50px;
+}
+.primeira a {
+    background-color: #f2b705;
+    border: 1px solid #d8a303;
+    padding: 14px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #f3f3f3;
+}
+.primeira a:hover {
+    background-color: #f3f3f3;
+    color: #d8a303;
+    font-weight: bold;
+    transition: .5s;
+}
+
+/*=== Segunda ===*/
+.segunda {
+    background-color: #f2b705;
+    color: #f3f3f3;
+    text-align: center;
+}
+.segunda h2 {
+    font-weight: bolder;
+}
+.segunda div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.dog {
+    width: 342px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.dog img:hover {
+    filter: saturate(0%);
+    transition: .5s;
+}
+.dog a {
+    background-color: #04d9d9;
+    border: 1px solid #02caca;
+    color: #f3f3f3;
+    padding: 8px 20px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+.dog a:hover {
+    background-color: #f3f3f3;
+    color: #02caca;
+    font-weight: bold;
+    transition: .5s;
+}
+
+/*=== Terceira ===*/
+.terceira {
+    text-align: center;
+    padding-bottom: 32px;
+}
+.terceira h2 {
+    font-weight: bold;
+    font-size: 52px;
+}
+.terceira p {
+    padding-bottom: 50px;
+}
+.terceira div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.enfermeira {
+    width: 361px;
+    text-align: left;
+    padding-bottom: 30px;
+    box-shadow: 10px 5px 10px 2px #999999;
+    justify-content: space-between;
+}
+.enfermeira h3 {
+    text-align: left;
+    font-weight: bold;
+    padding-left: 20px;
+}
+.enfermeira p {
+    padding-left: 20px;
+}
+.enfermeira a {
+    text-decoration: none;
+    color: #02caca;
+    padding-left: 20px;
+}
+footer {
+    background-color: #333333;
+    color: #f3f3f3;
+    text-align: center;
+    padding-bottom: 24px;
+}
+
